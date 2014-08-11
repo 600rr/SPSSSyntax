@@ -6,9 +6,22 @@
 # CHECKS TO WRITE
 # Check : IF S7 is 2, then S8,S9,S10,S11 should be empty (NULL)
 
+# ALL 
+# NOT ALL - SOME or NONE
+# ANY - SOME
+# NOT ANY - NONE
 
 ###########
 
+
+
+TEMP <-  MASTER[MASTER$bpc3s7==2,]
+LEN = nrow(TEMP)
+Empty = logical(LEN)
+for (i in 1:LEN)
+{
+Empty[i] = ANY( c( is.na(MASTER$bpc3s8) , is.na(MASTER$bpc3s9), is.na(MASTER$bpc3s10) , is.na(MASTER$bpc3s11))) 
+}
 
 
 ###################################################################################

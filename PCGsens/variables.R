@@ -1,3 +1,39 @@
+
+# Adoptions
+# Answered only if S2 is Yes (1)
+# S3 Domestic or international adoption
+# S4 Domestic within family (NULL for international adoptions)
+# S5 from which country (NULL for domestic adoptions)
+# s6 Age of Child at adoption
+
+##################### PCGSENS - Non-Resident Biological Parent
+
+# S38
+# S39
+# S40
+# S41 - Arrangement?  (1 to 3) if 3 go to 45
+# S42 - Brief Description of Arrangement
+# S43 - Circumstance of Arrangement
+# S44 - Form of Arrangement
+# S45 - Distance to Non-Resident Biological Parent (1 to 4)
+# S46a - 
+# S46b -
+# S47 - 
+# S48 - 
+# S49 - Child Anxiety Level with Non-Resident Biological Parent
+# S50 -
+# S51 - Discussions Re: Child (1 to 6)
+# S52 - 
+# S53 -
+# S54 - 
+# S55 - 
+# S56 -
+# S57 -
+# S58 - Non Resident Step Siblings
+# S59 -
+#
+
+
 PCGsens.varlist.prelim <- c("X1", "X2", "bpc3AS1", "bpc3AS2", "bpc3AS3")
 PCGsens.vardesc.prelim <- c("Gender", "DOB", "ExitReason", "ExitMonth", "ExitYear")
 

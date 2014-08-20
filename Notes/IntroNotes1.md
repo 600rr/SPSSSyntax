@@ -11,3 +11,8 @@ an asterisk-slash. The comment is terminated by a period. For example:
 /* This is a comment and will continue to be
   a comment until the terminating asterisk-slash */
   </code></pre>
+
+<hr>
+### The `TEMPORARY` Command
+
+The `TEMPORARY`  command allows you to temporarily transform the data without making permanent changes. The transformation works for the very first procedure, then it reverts back to the original values.
